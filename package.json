@@ -15,6 +15,7 @@
   ],
   "scripts": {
     "start": "react-app-rewired start",
+    "start-do": "PORT=80 react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "CI=true react-app-rewired test",
     "eject": "react-scripts eject",
